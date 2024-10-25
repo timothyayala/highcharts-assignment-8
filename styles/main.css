@@ -1,0 +1,43 @@
+#chart1-container, #chart2-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+  }
+  @media (max-width: 768px) {
+    #chart1-container, #chart2-container {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: #fff;
+    color: #000;
+    font-family: 'Verdana', sans-serif;
+    margin: 4rem;
+  }
+  
+  #container {
+    width: 600px;
+    height: 400px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #0287b3;
+  }
+  
+  a:hover {
+    color: #3ecbfa;
+  }  
